@@ -14,7 +14,7 @@ We can search the first char of __T__ whether it's exist in chars of __S__, and 
   bgbag     g     g      g 
  g O  O     O     O      O
 
-<img src="https://github.com/AlgorithmicIntelligence/Leetcode/blob/main/leetcode115.jpg" width="900">
+<img src="https://github.com/AlgorithmicIntelligence/Leetcode/blob/main/115.DistanceSubsequences/leetcode115.jpg" width="900">
 
 
 *__BP solution__
