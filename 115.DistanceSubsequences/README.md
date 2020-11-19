@@ -16,7 +16,7 @@ We can search the first char of __T__ whether it's exist in chars of __S__, and 
 ```
 <img src="https://github.com/AlgorithmicIntelligence/Leetcode/blob/main/115.DistanceSubsequences/leetcode115.jpg" width="900">
 
-[**Cite**]("https://leetcode.com/problems/distinct-subsequences/discuss/932043/DFS-greater-DP-Progression-with-Explanation-987")
+[**Cite**](https://leetcode.com/problems/distinct-subsequences/discuss/932043/DFS-greater-DP-Progression-with-Explanation-987)
 
 *__BP solution__*
 
