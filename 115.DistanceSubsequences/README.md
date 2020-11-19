@@ -37,8 +37,11 @@ t 1 1 1 3 3 3 3  3
 ```
 ```
 if S[i] == T[j]:
+    // If the chars of S(0 ~ i-1) are matched with T(0 ~ j-1), the num of solution is dp[i-1][j-1], hence S[i] and T[j] make a pair. (dp[i][j] = dp[i-1][j-1])
+    // If S(0 ~ i-1) are already matched with T(0 ~ j), the num of solution is dp[i-1][j], hence S[i] can be omitted. (dp[i][j] = dp[i-1][j])
     dp[i][j] =dp[i-1][j]+dp[i-1][j-1]
 else:
+    // If S(0 ~ i-1) are already matched with T(0 ~ j), the num of solution is dp[i-1][j], hence S[i] can be omitted. (dp[i][j] = dp[i-1][j])
     dp[i][j]=dp[i-1][j]
 ```
 
